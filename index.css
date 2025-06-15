@@ -20,12 +20,16 @@ img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 5px solid sienna;
+    border: 5px solid aqua;
 }
 
-header {display: flex;
+.center {display: flex;
     justify-content: center;
     align-items: center;
     height: 200px; 
 
+}
+
+h1{
+    color: aqua;
 }
