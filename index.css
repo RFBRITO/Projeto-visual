@@ -39,7 +39,12 @@ h1{
 
 footer { 
   
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
 
-   
+footer a {
+    margin: 20px;
 }
