@@ -16,7 +16,7 @@ a{
     text-decoration: none;
 }
 
-img {
+header img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -32,4 +32,14 @@ img {
 
 h1{
     color: aqua;
+}
+.logo { 
+    width: 100px;
+}
+
+footer { 
+  
+    
+
+   
 }
