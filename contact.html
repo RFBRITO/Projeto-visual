@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fale conosco</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="contact.php">
+
 </head>
 <body>
-    <h1>Fale conosco</h1>
-    h2
+    <div class="container">
+
+        <h1>Fale conosco</h1>
+    <p>Se você tiver alguma dúvida ou quiser entrar em contato, preencha o formulário abaixo:</p>
+    <form action="contact.php" method="post">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Menssagem</label>
+        <textarea name="message" id="message" rows="1" required></textarea>
+
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" name="telefone" required>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+        
+    </div>
+
+   
+    </form>
+
+
 </body>
 </html>

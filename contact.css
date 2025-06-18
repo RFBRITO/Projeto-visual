@@ -1,0 +1,26 @@
+body {
+    background-color: whitesmoke;
+    font-family: arial, sans-serif;
+    color: black;
+    padding: 200px;
+    justify-content: space-between;
+}
+
+textarea {
+    resize: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(77, 59, 59, 0.068);
+
+}
+
+label, input, textarea, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
