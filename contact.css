@@ -6,21 +6,55 @@ body {
     justify-content: space-between;
 }
 
-textarea {
-    resize: none;
+
+label, input, button {
+  font-family: Arial, sans-serif;
+    display: block;
+    width: 100%;
+  padding: 5px; /* aumenta a altura */
+  font-size: 16px;
+  border-radius: 6px;
+  margin-bottom: 9px;
 }
 
 .container {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: rgba(77, 59, 59, 0.068);
-
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
 }
 
-label, input, textarea, button {
-    display: block;
+.formulario, .contato {
+  background: #f4f4f4;
+  padding: 0px;
+  flex: 1;
+}
+
+.contato i {
+  margin-right: 8px;
+  color: #007BFF;
+  max-width: 50px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.voltar {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    margin-bottom: 10px;
+    background-color: #333;
+    color: rgb(255, 243, 243);
+    padding: 10px;
+    text-decoration: none;
 }

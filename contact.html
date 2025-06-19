@@ -6,12 +6,26 @@
     <title>Fale conosco</title>
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="contact.php">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="sobre_mim.html">
+
+    
 
 </head>
 <body>
+    <nav class="voltar">
+        <ul>
+            <li>
+                <a href="index.html">Sobre Mim</a>
+            </li>
+        </ul>
+    </nav>
     <div class="container">
 
-        <h1>Fale conosco</h1>
+
+        <div class="formulário">
+
+             <h1>Fale conosco</h1>
     <p>Se você tiver alguma dúvida ou quiser entrar em contato, preencha o formulário abaixo:</p>
     <form action="contact.php" method="post">
         <label for="name">Nome:</label>
@@ -20,14 +34,13 @@
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
 
-        <label for="message">Menssagem</label>
-        <textarea name="message" id="message" rows="1" required></textarea>
 
         <label for="assunto">Assunto:</label>
         <input type="text" id="assunto" name="assunto" required>
 
         <label for="telefone">Telefone:</label>
         <input type="text" id="telefone" name="telefone" required>
+        <i class="bx bxs-lock-alt"></i>
 
         <button type="submit">Enviar</button>
     </form>
@@ -35,8 +48,21 @@
         
     </div>
 
-   
-    </form>
+    <div class="contato">
+<h3>Contato</h3>
+
+    <p><strong><i class="fas fa-envelope"></i> Email:</strong> brito231q@hotmail.com</p>
+    <p><strong><i class="fas fa-phone"></i> Telefone:</strong> (21) 98224-3332</p>
+    <p><strong><i class="fas fa-map-marker-alt"></i> Endereço:</strong> Araticum - Rio de Janeiro</p>
+    <footer>
+
+        <p>&copy; 2025 Rafael Brito. Todos os direitos reservados.</p>
+
+    </div>
+        
+
+        </div>
+
 
 
 </body>
